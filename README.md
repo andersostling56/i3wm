@@ -19,8 +19,8 @@ toggle-vpn.sh: script to turn VPN on or off using a predefined VPN profile. Call
 vpn-openvpn-status.sh: script called from polybar module to reurn label text for the top bar
 
 launch.sh: script called from i3 startup config to create polybar 
-- launch --day is called from cron on weekdays at 9 am (when the stock market open)
-- launch --night is called at 6 pm when the market have have been closed for 30 minutes
+- launch --day is called from cron on weekdays at 9 am (when the stock market open). "day" uses the top and bottom bars.
+- launch --night is called at 6 pm when the market have have been closed for 30 minutes. "night" delete the bottom bar.
 
 
 
