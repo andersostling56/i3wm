@@ -4,7 +4,5 @@ This repo hold instructions and configuarion for my own configuration, made for 
 
 Files
 i3 config file
-Polybar with module Pwidgets (heavily modified)
-Rofi configs for SYSMENU and POWERMENU
-Bash script for retrieving stock market values from Yahoo finance
-Bash script for toggling VPN connection to a remote site
+Polybar with module Pwidgets (heavily modified), Rofi configs for SYSMENU and POWERMENU, bash scripts for retrieving stock market values from Yahoo finance and for toggling VPN connection to a remote site on and off (with indicator in top bar)
+
