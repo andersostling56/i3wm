@@ -22,6 +22,14 @@ launch.sh: script called from i3 startup config to create polybar
 - launch --day is called from cron on weekdays at 9 am (when the stock market open). "day" uses the top and bottom bars.
 - launch --night is called at 6 pm when the market have have been closed for 30 minutes. "night" delete the bottom bar.
 
+main.ini: polybar main configuration file with bar defintions (primary and top in my case)
+colors.ini: generic definitions
+workspace.ini: as above
+stockmarket.ini: modules for each stock to monitor
+- the module calls aktier.sh to fetch current rate for a specific stock
+
+
+
 
 
 
