@@ -12,4 +12,6 @@ gruvbox.png: wallpaper
 
 aktier.sh: module script to fetch stock market values
 
+rofi-power-menu.sh: Modified to inclyde VPN toggle
+
 
