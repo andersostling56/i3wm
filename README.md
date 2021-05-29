@@ -28,6 +28,10 @@ workspace.ini: as above
 stockmarket.ini: modules for each stock to monitor
 - the module calls aktier.sh to fetch current rate for a specific stock
 
+pwidgets/scripts/rofi:
+- style files for lanucher.rasi and powermenu.rasi
+
+
 
 
 
