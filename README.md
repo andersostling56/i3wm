@@ -31,6 +31,19 @@ stockmarket.ini: modules for each stock to monitor
 pwidgets/scripts/rofi:
 - style files for lanucher.rasi and powermenu.rasi
 
+libinput-gestures.conf: Defintion of swipe up/down on touchpad.
+- Requires installation of libinput-tools
+-    sudo apt install python3 python3-gi meson xdotool libinput-tools gettext
+-    git clone https://github.com/bulletmark/libinput-gestures.git
+-    cd libinput-gestures/
+-    make && sudo make install
+-    sudo ./libinput-gestures-setup install && libinput-gestures-setup start
+
+Note: i3 config contains "exec --no-startup-id libinput-gestures"
+
+
+
+
 
 
 
