@@ -7,7 +7,9 @@ i3 config file
 Polybar with module Pwidgets (heavily modified), Rofi configs for SYSMENU and POWERMENU, bash scripts for retrieving stock market values from Yahoo finance and for toggling VPN connection to a remote site on and off (with indicator in top bar)
 
 contig: iw main configuration
+
 gruvbox.png: wallpaper
+
 aktier.sh: module script to fetch stock market values
 
 
