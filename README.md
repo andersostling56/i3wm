@@ -18,6 +18,8 @@ toggle-vpn.sh: script to turn VPN on or off using a predefined VPN profile. Call
 
 vpn-openvpn-status.sh: script called from polybar module to reurn label text for the top bar
 
+launch.sh: script called from i3 startup config to create polybar 
+
 
 
 
