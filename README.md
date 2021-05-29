@@ -33,6 +33,7 @@ Note: I have two monitors, a laptop and a 4K DP monitor. The file main.ini holds
  [bar/main]
 
  monitor = DP-2-2
+ 
  monitor-fallback = eDP-1
 
 
