@@ -28,6 +28,14 @@ workspace.ini: as above
 stockmarket.ini: modules for each stock to monitor
 - the module calls aktier.sh to fetch current rate for a specific stock
 
+Note: I have two monitors, a laptop and a 4K DP monitor. The file main.ini holds two statements regarding screen output
+ 
+ [bar/main]
+
+ monitor = DP-2-2
+ monitor-fallback = eDP-1
+
+
 pwidgets/scripts/rofi:
 - style files for lanucher.rasi and powermenu.rasi
 
