@@ -14,4 +14,9 @@ aktier.sh: module script to fetch stock market values
 
 rofi-power-menu.sh: Modified to inclyde VPN toggle
 
+toggle-vpn.sh: script to turn VPN on or off using a predefined VPN profile
+
+
+
+
 
