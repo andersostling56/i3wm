@@ -13,6 +13,8 @@ Polybar with module Pwidgets (heavily modified), Rofi configs for SYSMENU and PO
 
 ~/.config/i3/config:  main configuration
 
+~/.config/i3/libinput-gestures.conf-: configuration for swiping between  workspaces
+
 ~/Pictures/gruvbox.png:  wallpaper
 
 ~/Pictures/lock.png:  lock screen wallpaper
