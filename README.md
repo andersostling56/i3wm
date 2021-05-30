@@ -1,4 +1,8 @@
 # i3wm
+Edit 30/5
+
+* Made stock labels clickable in modules.ini 
+
 i3 wm with Polybar and custom modules
 This repo hold instructions and configuarion for my own configuration, made for a Lenovo Thinkpad T470s and a BENQ 4K display connected to a DP port in the Lenovo docking station.
 
