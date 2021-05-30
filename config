@@ -45,7 +45,7 @@ bindsym $mod+l exec i3lock -i /home/anders/Pictures/lock.png
 # Start browswer on WS3
 
 bindsym $mod+e exec $browser
-assign [class="microsoft-edge-dev"] $ws3
+assign [class="Microsoft-edge-dev"] $ws3
 
 # Start RDP session center on WS4
 
@@ -54,8 +54,9 @@ assign [class="remmina"] $ws4
 
 # Start Music on WS5
 
-bindsym $mod+s exec $music
-assign [class="(?i)spotify"] $ws5
+bindsym $mod+s exec $music --class=Music
+assign [class="Spotify"] $ws5
+for_window [class="Spotify"] move to workspace $ws5
 
 # Audio controller
 
